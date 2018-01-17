@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32CDA0A73A80B2F2E83A3F34 /* libPods-TextureNeiHanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 096A374446529314FF9265EE /* libPods-TextureNeiHanDemo.a */; };
 		404EC4EA200F8DE9000EC54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EC4E9200F8DE9000EC54E /* AppDelegate.m */; };
 		404EC4ED200F8DE9000EC54E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EC4EC200F8DE9000EC54E /* ViewController.m */; };
 		404EC4F2200F8DE9000EC54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404EC4F1200F8DE9000EC54E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096A374446529314FF9265EE /* libPods-TextureNeiHanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextureNeiHanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		404EC4E5200F8DE9000EC54E /* TextureNeiHanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureNeiHanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		404EC4E8200F8DE9000EC54E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		404EC4E9200F8DE9000EC54E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,6 +36,8 @@
 		404EC504200F9B52000EC54E /* NhTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NhTableViewCell.h; sourceTree = "<group>"; };
 		404EC505200F9B52000EC54E /* NhTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NhTableViewCell.m; sourceTree = "<group>"; };
 		404EC507200F9C90000EC54E /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		8652236AC8849CA155F18088 /* Pods-TextureNeiHanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureNeiHanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureNeiHanDemo/Pods-TextureNeiHanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC00A57214E22F8EC27EDB9 /* Pods-TextureNeiHanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureNeiHanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureNeiHanDemo/Pods-TextureNeiHanDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CDA0A73A80B2F2E83A3F34 /* libPods-TextureNeiHanDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B73E83B54A70C3CB8C2C47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096A374446529314FF9265EE /* libPods-TextureNeiHanDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		404EC4DC200F8DE9000EC54E = {
 			isa = PBXGroup;
 			children = (
 				404EC4E7200F8DE9000EC54E /* TextureNeiHanDemo */,
 				404EC4E6200F8DE9000EC54E /* Products */,
+				53F289B7CECCFF0FDDC02AB0 /* Pods */,
+				2B73E83B54A70C3CB8C2C47F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +100,15 @@
 			path = TextureNeiHanDemo;
 			sourceTree = "<group>";
 		};
+		53F289B7CECCFF0FDDC02AB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8652236AC8849CA155F18088 /* Pods-TextureNeiHanDemo.debug.xcconfig */,
+				CDC00A57214E22F8EC27EDB9 /* Pods-TextureNeiHanDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 404EC4FB200F8DEA000EC54E /* Build configuration list for PBXNativeTarget "TextureNeiHanDemo" */;
 			buildPhases = (
+				824844D7DA18108352610472 /* [CP] Check Pods Manifest.lock */,
 				404EC4E1200F8DE9000EC54E /* Sources */,
 				404EC4E2200F8DE9000EC54E /* Frameworks */,
 				404EC4E3200F8DE9000EC54E /* Resources */,
+				9242517B06B6E8DF2279B9AE /* [CP] Embed Pods Frameworks */,
+				1B7739F99F2F4EA45655E987 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +176,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B7739F99F2F4EA45655E987 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextureNeiHanDemo/Pods-TextureNeiHanDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		824844D7DA18108352610472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextureNeiHanDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9242517B06B6E8DF2279B9AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextureNeiHanDemo/Pods-TextureNeiHanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		404EC4E1200F8DE9000EC54E /* Sources */ = {
@@ -284,6 +362,7 @@
 		};
 		404EC4FC200F8DEA000EC54E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8652236AC8849CA155F18088 /* Pods-TextureNeiHanDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +377,7 @@
 		};
 		404EC4FD200F8DEA000EC54E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC00A57214E22F8EC27EDB9 /* Pods-TextureNeiHanDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
