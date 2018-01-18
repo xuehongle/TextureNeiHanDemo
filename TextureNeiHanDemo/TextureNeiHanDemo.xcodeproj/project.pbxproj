@@ -14,6 +14,9 @@
 		404EC4F5200F8DE9000EC54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404EC4F3200F8DE9000EC54E /* LaunchScreen.storyboard */; };
 		404EC4F8200F8DEA000EC54E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EC4F7200F8DEA000EC54E /* main.m */; };
 		851C4E4520108C9400CED97D /* AnimatedGIFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E4420108C9400CED97D /* AnimatedGIFVC.m */; };
+		851C4E49201094B700CED97D /* ASCollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E48201094B700CED97D /* ASCollectionViewVC.m */; };
+		851C4E4C201096CB00CED97D /* SupplementaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E4B201096CB00CED97D /* SupplementaryNode.m */; };
+		851C4E4F2010A61100CED97D /* ItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E4E2010A61100CED97D /* ItemNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,12 @@
 		851C4E4320108C9400CED97D /* AnimatedGIFVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFVC.h; sourceTree = "<group>"; };
 		851C4E4420108C9400CED97D /* AnimatedGIFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedGIFVC.m; sourceTree = "<group>"; };
 		851C4E462010923900CED97D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		851C4E47201094B700CED97D /* ASCollectionViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCollectionViewVC.h; sourceTree = "<group>"; };
+		851C4E48201094B700CED97D /* ASCollectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCollectionViewVC.m; sourceTree = "<group>"; };
+		851C4E4A201096CB00CED97D /* SupplementaryNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupplementaryNode.h; sourceTree = "<group>"; };
+		851C4E4B201096CB00CED97D /* SupplementaryNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupplementaryNode.m; sourceTree = "<group>"; };
+		851C4E4D2010A61100CED97D /* ItemNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemNode.h; sourceTree = "<group>"; };
+		851C4E4E2010A61100CED97D /* ItemNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemNode.m; sourceTree = "<group>"; };
 		8652236AC8849CA155F18088 /* Pods-TextureNeiHanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureNeiHanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureNeiHanDemo/Pods-TextureNeiHanDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC00A57214E22F8EC27EDB9 /* Pods-TextureNeiHanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureNeiHanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureNeiHanDemo/Pods-TextureNeiHanDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,13 +89,19 @@
 				404EC4E9200F8DE9000EC54E /* AppDelegate.m */,
 				404EC4EB200F8DE9000EC54E /* ViewController.h */,
 				404EC4EC200F8DE9000EC54E /* ViewController.m */,
+				851C4E4320108C9400CED97D /* AnimatedGIFVC.h */,
+				851C4E4420108C9400CED97D /* AnimatedGIFVC.m */,
+				851C4E47201094B700CED97D /* ASCollectionViewVC.h */,
+				851C4E48201094B700CED97D /* ASCollectionViewVC.m */,
+				851C4E4A201096CB00CED97D /* SupplementaryNode.h */,
+				851C4E4B201096CB00CED97D /* SupplementaryNode.m */,
+				851C4E4D2010A61100CED97D /* ItemNode.h */,
+				851C4E4E2010A61100CED97D /* ItemNode.m */,
 				404EC4F1200F8DE9000EC54E /* Assets.xcassets */,
 				404EC4F3200F8DE9000EC54E /* LaunchScreen.storyboard */,
 				404EC4F6200F8DE9000EC54E /* Info.plist */,
 				404EC4F7200F8DEA000EC54E /* main.m */,
 				404EC507200F9C90000EC54E /* Macro.h */,
-				851C4E4320108C9400CED97D /* AnimatedGIFVC.h */,
-				851C4E4420108C9400CED97D /* AnimatedGIFVC.m */,
 				851C4E462010923900CED97D /* PrefixHeader.pch */,
 			);
 			path = TextureNeiHanDemo;
@@ -228,7 +243,10 @@
 				851C4E4520108C9400CED97D /* AnimatedGIFVC.m in Sources */,
 				404EC4ED200F8DE9000EC54E /* ViewController.m in Sources */,
 				404EC4F8200F8DEA000EC54E /* main.m in Sources */,
+				851C4E4C201096CB00CED97D /* SupplementaryNode.m in Sources */,
+				851C4E4F2010A61100CED97D /* ItemNode.m in Sources */,
 				404EC4EA200F8DE9000EC54E /* AppDelegate.m in Sources */,
+				851C4E49201094B700CED97D /* ASCollectionViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AnimatedGIFVC.h"
+#import "ASCollectionViewVC.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -52,7 +53,7 @@
     if ([self.arr[indexPath.row] isEqualToString:@"AnimatedGIF"]) {
         vc = [[AnimatedGIFVC alloc]init];
     } else if ([self.arr[indexPath.row] isEqualToString:@"ASCollectionView"]) {
-        
+        vc = [[ASCollectionViewVC alloc]init];
     }
     [self.navigationController pushViewController:vc animated:YES];
 }
