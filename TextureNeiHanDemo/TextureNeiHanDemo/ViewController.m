@@ -7,14 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "AllDataModel.h"
-#import "NhTableViewCell.h"
-#import "DataModel.h"
+#import "AnimatedGIFVC.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView * tableView;
-@property (nonatomic, strong) NSMutableArray * data;
+@property (nonatomic, strong) NSMutableArray * arr;
 @end
 
 @implementation ViewController
@@ -23,37 +21,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _data = [[NSMutableArray alloc] init];
+    _arr = [NSMutableArray arrayWithObjects:@"AnimatedGIF", @"ASCollectionView", nil];
     
     _tableView = [[UITableView alloc]initWithFrame:self.view.frame];
     [self.view addSubview:_tableView];
     _tableView.dataSource = self;
     _tableView.delegate = self;
-    [_tableView registerClass:[NhTableViewCell class] forCellReuseIdentifier:@"NhTableViewCell"];
-    _tableView.estimatedRowHeight = 60;
-    _tableView.rowHeight = UITableViewAutomaticDimension;
-    [self loadData];
+    
 }
 - (void)dealloc {
     NSLog(@"%s", __FUNCTION__);
 }
 #pragma mark: - *****************method*****************
-- (void)loadData {
-    for (int i=0; i<100; i++) {
-        DataModel * model = [[DataModel alloc]init];
-        [self.data addObject:model];
-    }
-    [_tableView reloadData];
-}
 
 #pragma mark: - *****************delegate*****************
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _data.count;
+    return _arr.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NhTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"NhTableViewCell" forIndexPath:indexPath];
-    cell.label.text = [NSString stringWithFormat:@"%ld行", indexPath.row];
+    static NSString * cellStr = @"cell";
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellStr];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellStr];
+    }
+    cell.textLabel.text = self.arr[indexPath.row];
     return cell;
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController * vc = nil;
+    if ([self.arr[indexPath.row] isEqualToString:@"AnimatedGIF"]) {
+        vc = [[AnimatedGIFVC alloc]init];
+    } else if ([self.arr[indexPath.row] isEqualToString:@"ASCollectionView"]) {
+        
+    }
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

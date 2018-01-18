@@ -10,5 +10,7 @@ target 'TextureNeiHanDemo' do
 pod 'AFNetworking'
 pod 'Masonry'
 pod 'SDWebImage'
+pod "Texture"
+pod 'PINRemoteImage/WebP'
 
 end
