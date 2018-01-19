@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		32CDA0A73A80B2F2E83A3F34 /* libPods-TextureNeiHanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 096A374446529314FF9265EE /* libPods-TextureNeiHanDemo.a */; };
+		402487032012353900E9E61B /* AnimalTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402487002012353800E9E61B /* AnimalTableController.m */; };
+		4024870F2012354800E9E61B /* CardNode_InterfaceCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 402487052012354700E9E61B /* CardNode_InterfaceCallbacks.m */; };
+		402487102012354800E9E61B /* CardNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 402487062012354700E9E61B /* CardNode.m */; };
+		402487112012354800E9E61B /* GradientNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 402487082012354700E9E61B /* GradientNode.m */; };
+		402487122012354800E9E61B /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024870A2012354700E9E61B /* CardCell.m */; };
+		402487132012354800E9E61B /* Factories.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024870D2012354800E9E61B /* Factories.m */; };
+		402487182012355200E9E61B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 402487142012355100E9E61B /* UIImage+ImageEffects.m */; };
+		402487192012355200E9E61B /* RainforestCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 402487162012355200E9E61B /* RainforestCardInfo.m */; };
 		404EC4EA200F8DE9000EC54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EC4E9200F8DE9000EC54E /* AppDelegate.m */; };
 		404EC4ED200F8DE9000EC54E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EC4EC200F8DE9000EC54E /* ViewController.m */; };
 		404EC4F2200F8DE9000EC54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404EC4F1200F8DE9000EC54E /* Assets.xcassets */; };
@@ -21,6 +29,22 @@
 
 /* Begin PBXFileReference section */
 		096A374446529314FF9265EE /* libPods-TextureNeiHanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextureNeiHanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402487002012353800E9E61B /* AnimalTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalTableController.m; sourceTree = "<group>"; };
+		402487022012353900E9E61B /* AnimalTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalTableController.h; sourceTree = "<group>"; };
+		402487052012354700E9E61B /* CardNode_InterfaceCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardNode_InterfaceCallbacks.m; sourceTree = "<group>"; };
+		402487062012354700E9E61B /* CardNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardNode.m; sourceTree = "<group>"; };
+		402487072012354700E9E61B /* GradientNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientNode.h; sourceTree = "<group>"; };
+		402487082012354700E9E61B /* GradientNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientNode.m; sourceTree = "<group>"; };
+		402487092012354700E9E61B /* CardNode_InterfaceCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardNode_InterfaceCallbacks.h; sourceTree = "<group>"; };
+		4024870A2012354700E9E61B /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		4024870B2012354700E9E61B /* Factories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factories.h; sourceTree = "<group>"; };
+		4024870C2012354800E9E61B /* CardNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardNode.h; sourceTree = "<group>"; };
+		4024870D2012354800E9E61B /* Factories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factories.m; sourceTree = "<group>"; };
+		4024870E2012354800E9E61B /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		402487142012355100E9E61B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		402487152012355200E9E61B /* RainforestCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainforestCardInfo.h; sourceTree = "<group>"; };
+		402487162012355200E9E61B /* RainforestCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainforestCardInfo.m; sourceTree = "<group>"; };
+		402487172012355200E9E61B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		404EC4E5200F8DE9000EC54E /* TextureNeiHanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureNeiHanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		404EC4E8200F8DE9000EC54E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		404EC4E9200F8DE9000EC54E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +88,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		402486FE2012350100E9E61B /* asdk */ = {
+			isa = PBXGroup;
+			children = (
+				402487022012353900E9E61B /* AnimalTableController.h */,
+				402487002012353800E9E61B /* AnimalTableController.m */,
+				4024870E2012354800E9E61B /* CardCell.h */,
+				4024870A2012354700E9E61B /* CardCell.m */,
+				402487092012354700E9E61B /* CardNode_InterfaceCallbacks.h */,
+				402487052012354700E9E61B /* CardNode_InterfaceCallbacks.m */,
+				4024870C2012354800E9E61B /* CardNode.h */,
+				402487062012354700E9E61B /* CardNode.m */,
+				4024870B2012354700E9E61B /* Factories.h */,
+				4024870D2012354800E9E61B /* Factories.m */,
+				402487072012354700E9E61B /* GradientNode.h */,
+				402487082012354700E9E61B /* GradientNode.m */,
+				402487152012355200E9E61B /* RainforestCardInfo.h */,
+				402487162012355200E9E61B /* RainforestCardInfo.m */,
+				402487172012355200E9E61B /* UIImage+ImageEffects.h */,
+				402487142012355100E9E61B /* UIImage+ImageEffects.m */,
+			);
+			path = asdk;
+			sourceTree = "<group>";
+		};
 		404EC4DC200F8DE9000EC54E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +144,7 @@
 				851C4E4B201096CB00CED97D /* SupplementaryNode.m */,
 				851C4E4D2010A61100CED97D /* ItemNode.h */,
 				851C4E4E2010A61100CED97D /* ItemNode.m */,
+				402486FE2012350100E9E61B /* asdk */,
 				404EC4F1200F8DE9000EC54E /* Assets.xcassets */,
 				404EC4F3200F8DE9000EC54E /* LaunchScreen.storyboard */,
 				404EC4F6200F8DE9000EC54E /* Info.plist */,
@@ -240,12 +288,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402487132012354800E9E61B /* Factories.m in Sources */,
+				402487032012353900E9E61B /* AnimalTableController.m in Sources */,
+				402487192012355200E9E61B /* RainforestCardInfo.m in Sources */,
+				402487112012354800E9E61B /* GradientNode.m in Sources */,
 				851C4E4520108C9400CED97D /* AnimatedGIFVC.m in Sources */,
+				402487122012354800E9E61B /* CardCell.m in Sources */,
 				404EC4ED200F8DE9000EC54E /* ViewController.m in Sources */,
 				404EC4F8200F8DEA000EC54E /* main.m in Sources */,
 				851C4E4C201096CB00CED97D /* SupplementaryNode.m in Sources */,
 				851C4E4F2010A61100CED97D /* ItemNode.m in Sources */,
+				4024870F2012354800E9E61B /* CardNode_InterfaceCallbacks.m in Sources */,
 				404EC4EA200F8DE9000EC54E /* AppDelegate.m in Sources */,
+				402487182012355200E9E61B /* UIImage+ImageEffects.m in Sources */,
+				402487102012354800E9E61B /* CardNode.m in Sources */,
 				851C4E49201094B700CED97D /* ASCollectionViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79U6N62UN4;
+				DEVELOPMENT_TEAM = 8CL9TSWYV3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TextureNeiHanDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = TextureNeiHanDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -391,7 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 79U6N62UN4;
+				DEVELOPMENT_TEAM = 8CL9TSWYV3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TextureNeiHanDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = TextureNeiHanDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

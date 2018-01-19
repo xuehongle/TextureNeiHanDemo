@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "AnimatedGIFVC.h"
 #import "ASCollectionViewVC.h"
+#import "AnimalTableController.h"
+#import "RainforestCardInfo.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -22,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _arr = [NSMutableArray arrayWithObjects:@"AnimatedGIF", @"ASCollectionView", nil];
+    _arr = [NSMutableArray arrayWithObjects:@"AnimatedGIF", @"ASCollectionView", @"asdkDemo", nil];
     
     _tableView = [[UITableView alloc]initWithFrame:self.view.frame];
     [self.view addSubview:_tableView];
@@ -54,6 +56,8 @@
         vc = [[AnimatedGIFVC alloc]init];
     } else if ([self.arr[indexPath.row] isEqualToString:@"ASCollectionView"]) {
         vc = [[ASCollectionViewVC alloc]init];
+    } else if ([self.arr[indexPath.row] isEqualToString:@"asdkDemo"]) {
+        vc = [[AnimalTableController alloc] initWithAnimals:[RainforestCardInfo allAnimals]];
     }
     [self.navigationController pushViewController:vc animated:YES];
 }
