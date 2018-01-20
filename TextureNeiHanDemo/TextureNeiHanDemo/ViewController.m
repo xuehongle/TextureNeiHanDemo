@@ -11,6 +11,7 @@
 #import "ASCollectionViewVC.h"
 #import "AnimalTableController.h"
 #import "RainforestCardInfo.h"
+#import "ASDKLayoutTransitionVC.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -24,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _arr = [NSMutableArray arrayWithObjects:@"AnimatedGIF", @"ASCollectionView", @"asdkDemo", nil];
+    _arr = [NSMutableArray arrayWithObjects:@"AnimatedGIF", @"ASCollectionView", @"asdkDemo", @"ASDKLayoutTransition", nil];
     
     _tableView = [[UITableView alloc]initWithFrame:self.view.frame];
     [self.view addSubview:_tableView];
@@ -58,6 +59,8 @@
         vc = [[ASCollectionViewVC alloc]init];
     } else if ([self.arr[indexPath.row] isEqualToString:@"asdkDemo"]) {
         vc = [[AnimalTableController alloc] initWithAnimals:[RainforestCardInfo allAnimals]];
+    } else if ([self.arr[indexPath.row] isEqualToString:@"ASDKLayoutTransition"]) {
+        vc = [[ASDKLayoutTransitionVC alloc] init];
     }
     [self.navigationController pushViewController:vc animated:YES];
 }

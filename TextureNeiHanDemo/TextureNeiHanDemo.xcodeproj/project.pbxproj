@@ -21,6 +21,7 @@
 		404EC4F2200F8DE9000EC54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404EC4F1200F8DE9000EC54E /* Assets.xcassets */; };
 		404EC4F5200F8DE9000EC54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404EC4F3200F8DE9000EC54E /* LaunchScreen.storyboard */; };
 		404EC4F8200F8DEA000EC54E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EC4F7200F8DEA000EC54E /* main.m */; };
+		40D29E0F20139A3A0071CEDA /* ASDKLayoutTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D29E0E20139A3A0071CEDA /* ASDKLayoutTransitionVC.m */; };
 		851C4E4520108C9400CED97D /* AnimatedGIFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E4420108C9400CED97D /* AnimatedGIFVC.m */; };
 		851C4E49201094B700CED97D /* ASCollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E48201094B700CED97D /* ASCollectionViewVC.m */; };
 		851C4E4C201096CB00CED97D /* SupplementaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 851C4E4B201096CB00CED97D /* SupplementaryNode.m */; };
@@ -55,6 +56,8 @@
 		404EC4F6200F8DE9000EC54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		404EC4F7200F8DEA000EC54E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		404EC507200F9C90000EC54E /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		40D29E0D20139A3A0071CEDA /* ASDKLayoutTransitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASDKLayoutTransitionVC.h; sourceTree = "<group>"; };
+		40D29E0E20139A3A0071CEDA /* ASDKLayoutTransitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDKLayoutTransitionVC.m; sourceTree = "<group>"; };
 		851C4E4320108C9400CED97D /* AnimatedGIFVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFVC.h; sourceTree = "<group>"; };
 		851C4E4420108C9400CED97D /* AnimatedGIFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedGIFVC.m; sourceTree = "<group>"; };
 		851C4E462010923900CED97D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				851C4E4B201096CB00CED97D /* SupplementaryNode.m */,
 				851C4E4D2010A61100CED97D /* ItemNode.h */,
 				851C4E4E2010A61100CED97D /* ItemNode.m */,
+				40D29E0D20139A3A0071CEDA /* ASDKLayoutTransitionVC.h */,
+				40D29E0E20139A3A0071CEDA /* ASDKLayoutTransitionVC.m */,
 				402486FE2012350100E9E61B /* asdk */,
 				404EC4F1200F8DE9000EC54E /* Assets.xcassets */,
 				404EC4F3200F8DE9000EC54E /* LaunchScreen.storyboard */,
@@ -296,6 +301,7 @@
 				402487122012354800E9E61B /* CardCell.m in Sources */,
 				404EC4ED200F8DE9000EC54E /* ViewController.m in Sources */,
 				404EC4F8200F8DEA000EC54E /* main.m in Sources */,
+				40D29E0F20139A3A0071CEDA /* ASDKLayoutTransitionVC.m in Sources */,
 				851C4E4C201096CB00CED97D /* SupplementaryNode.m in Sources */,
 				851C4E4F2010A61100CED97D /* ItemNode.m in Sources */,
 				4024870F2012354800E9E61B /* CardNode_InterfaceCallbacks.m in Sources */,
